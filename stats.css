@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    display: flex;
+   width: 1111px;
+   height: 447px;
+   justify-content: center;
+   justify-items: center;
+   border-radius: 10px;
+  
+}
+.business{
+    background-color: hsl(244, 38%, 16%);
+    width: 573px;
+   padding-left: 75px;
+   padding-top: 80px;
+ 
+}
+.get{
+    margin-bottom: 84px;
+   
+}
+.get span{
+    color: hsl(277, 64%, 61%);
+}
+.get h1{
+    color: hsla(0, 0%, 100%,0.9);
+    margin-bottom: 34px;
+    font-weight: 700;
+}
+.get p{
+    
+    color: hsla(0, 0%, 100%, 0.6);
+    width: 347px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.ctq{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 92px;
+    color: hsla(0, 0%, 100%,0.9);
+    padding-bottom: 70px;
+}
+.companies{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+}
+.companies h3{
+    font-weight: 700;
+}
+.companies p{
+    font-size: 11px;
+    font-weight: 400;
+    opacity: 0.6;
+}
+.image{
+    width: 540px;
+    overflow: hidden;
+}
