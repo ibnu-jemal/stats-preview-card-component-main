@@ -10,6 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+   
 }
 .container{
     display: flex;
@@ -18,6 +19,7 @@ body{
    justify-content: center;
    justify-items: center;
    border-radius: 10px;
+   overflow: hidden;
   
 }
 .business{
@@ -25,7 +27,7 @@ body{
     width: 573px;
    padding-left: 75px;
    padding-top: 80px;
- border-radius: 10px;
+ 
 }
 .get{
     margin-bottom: 84px;
@@ -68,7 +70,7 @@ body{
     font-weight: 400;
     opacity: 0.6;
 }
-.image{
+.image img{
     width: 540px;
    
 }
