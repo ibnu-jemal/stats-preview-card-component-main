@@ -14,17 +14,18 @@ body{
 }
 .container{
     display: flex;
-   width: 1080px;
+   width: 900px;
    height: 447px;
    justify-content: center;
-   justify-items: center;
+   align-items: center;
    border-radius: 15px;
    overflow: hidden;
   
 }
 .business{
+   flex-basis: 50%;
     background-color: hsl(244, 38%, 16%);
-    width: 540px;
+    /* width: 573px; */
    padding-left: 75px;
    padding-top: 80px;
  
@@ -70,7 +71,8 @@ body{
     font-weight: 400;
     opacity: 0.6;
 }
-.image img{
-    width: 540px;
-   
+
+.image{
+    /* height: 447px; */
+    flex-basis: 50%;
 }
