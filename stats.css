@@ -14,17 +14,17 @@ body{
 }
 .container{
     display: flex;
-   width: 1111px;
+   width: 1080px;
    height: 447px;
    justify-content: center;
    justify-items: center;
-   border-radius: 10px;
+   border-radius: 15px;
    overflow: hidden;
   
 }
 .business{
     background-color: hsl(244, 38%, 16%);
-    width: 573px;
+    width: 540px;
    padding-left: 75px;
    padding-top: 80px;
  
