@@ -1,62 +1,66 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 body{
     font-family: "Inter", sans-serif;
-    font-weight: 700;
     background-color: hsl(233, 47%, 7%);
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-   
+    min-height: 100vh; 
 }
+
 .container{
-    display: flex;
-   width: 900px;
+   width: 1111px;
    height: 447px;
-   justify-content: center;
-   align-items: center;
    border-radius: 15px;
-   overflow: hidden;
-  
+   display: flex;
 }
+
 .business{
+   background-color: hsl(244, 38%, 16%);
    flex-basis: 50%;
-    background-color: hsl(244, 38%, 16%);
-    /* width: 573px; */
-   padding-left: 75px;
-   padding-top: 80px;
- 
+   padding: 75px 120px 65px 75px;
 }
-.get{
-    margin-bottom: 84px;
-   
+
+.picture {
+    flex-basis: 50%;
+    background-image: url(./images/image-header-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.get span{
+
+.image {
+    width: 556px;
+    height: 447px;
+    background-color:hsl(277, 64%, 61%, 60%);
+    
+}
+.business span{
     color: hsl(277, 64%, 61%);
 }
-.get h1{
+.business h1{
     color: hsla(0, 0%, 100%,0.9);
     margin-bottom: 34px;
-    font-weight: 700;
+    font-weight: 900;
+    font-size: 30px;
 }
-.get p{
-    
+.business p{
     color: hsla(0, 0%, 100%, 0.6);
-    width: 347px;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 300;
+    line-height: 1.6;
+    margin-bottom: 75px;
 }
 .ctq{
     display: flex;
-    align-items: center;
-    justify-content: start;
-    gap: 92px;
-    color: hsla(0, 0%, 100%,0.9);
-    padding-bottom: 70px;
+    justify-content: space-between;
+    color: hsla(0, 0%, 100%, 0.9);  
 }
+
 .companies{
     display: flex;
     flex-direction: column;
@@ -72,7 +76,3 @@ body{
     opacity: 0.6;
 }
 
-.image{
-    /* height: 447px; */
-    flex-basis: 50%;
-}
