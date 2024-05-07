@@ -25,7 +25,7 @@ body{
     width: 573px;
    padding-left: 75px;
    padding-top: 80px;
- 
+ border-radius: 10px;
 }
 .get{
     margin-bottom: 84px;
@@ -70,5 +70,5 @@ body{
 }
 .image{
     width: 540px;
-    overflow: hidden;
+   
 }
